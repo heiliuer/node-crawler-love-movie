@@ -18,15 +18,15 @@ var callDown = function (url) {
     var down = child.exec("xlxz " + url);
     // 捕获标准输出并将其打印到控制台
     down.stdout.on('data', function (data) {
-        console.log('标准输出：\n' + data);
+        // console.log('标准输出：\n' + data);
     });
 
 // 捕获标准错误输出并将其打印到控制台
     down.stderr.on('data', function (data) {
-        console.log('标准错误输出：\n' + data);
+        // console.log('标准错误输出：\n' + data);
     });
     down.on('exit', function (code, signal) {
-        console.log('调用迅雷下载，代码：' + code);
+        // console.log('调用迅雷下载，代码：' + code);
     });
 }
 
@@ -41,7 +41,7 @@ var parseDetail = function (result, $) {
         });
         var uri = $as.eq(0).attr("href");
         if (uri) {
-            console.log("down url:", uri);
+            // console.log("down url:", uri);
             callDown(uri);
         }
     }
