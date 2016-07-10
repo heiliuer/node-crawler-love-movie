@@ -1,0 +1,22 @@
+{
+  "name": "node-crawler-love-movie",
+  "version": "1.0.0",
+  "description": "love-movie",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heiliuer/node-crawler-love-movie.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heiliuer/node-crawler-love-movie/issues"
+  },
+  "homepage": "https://github.com/heiliuer/node-crawler-love-movie#readme",
+  "devDependencies": {
+    "crawler": "^0.4.3"
+  }
+}
