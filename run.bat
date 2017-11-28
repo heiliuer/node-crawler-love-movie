@@ -1,1 +1,1 @@
-npm run-script go
+npm run start
