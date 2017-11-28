@@ -6,7 +6,7 @@
 ### 首次请安装依赖
 npm install
 ### 开始下载
-npm run-script go
+npm run start
 
 
 ### 迅雷下载说明
